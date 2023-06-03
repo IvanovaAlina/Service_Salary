@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_header %}
+<link rel="stylesheet" href="{% static 'custom.css' %}">
+<div class="container">
+    <div class="row">
+        <div class="col-md-auto">
+            <h3>Подтверждение входа</h3>
+        </div>
+    </div>
+</div>
+{% endblock page_header %}
+
+{% block content %}
+<form action="{% url 'send_mail_for_verify' %}" method="get">
+    <div class="container" style=" float: right; right: 9%;">
+        <div class="row">
+            <div class="col-md-auto">
+                <h5>Для входа вам необходимо поддтвердить свою почту. Введите ее в поле ниже.</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-auto" style=" margin-top: 6px;">
+                <h6>Почта:</h6>
+            </div>
+            <div class="col-md-auto">
+                <input class="form-control" name="email_acc" value="{{email_acc}}" style="font-size:14px">
+            </div>
+            <div class="col-md-auto" style=" margin-top: 6px;">
+                <h6>@</h6>
+            </div>
+            <div class="col-md-auto">
+                <input class="form-control" name="email_box" value="{{email_box}}" style="font-size:14px">
+            </div>
+            <div class="col-md-auto">
+                <button name="submit" class="btn btn-info">Отправить код</button>
+            </div>
+        </div>
+    </div>
+</form>
+{% endblock content %}

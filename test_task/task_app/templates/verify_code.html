@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_header %}
+<link rel="stylesheet" href="{% static 'custom.css' %}">
+<div class="container">
+    <div class="row">
+        <div class="col-md-auto">
+            <h3>Подтверждение входа</h3>
+        </div>
+    </div>
+</div>
+{% endblock page_header %}
+
+{% block content %}
+<form action="{% url 'verify_code' %}" method="get">
+    <div class="container" style=" float: right; right: 9%;">
+        <div class="row">
+            <div class="col-md-auto">
+                <h5>Вам на указанную почту должен был придти код. Ввведите его в поле ниже.</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-auto" style=" margin-top: 6px;">
+                <h6>Код верификации:</h6>
+            </div>
+            <div class="col-md-auto">
+                <input class="form-control" name="verif_code" style="font-size:14px">
+            </div>
+            <div class="col-md-auto">
+                <button name="submit" class="btn btn-info">Проверить</button>
+            </div>
+            <div class="col-md-auto">
+                <a class="btn btn btn-light" href="{% url 'verify_email' %}">
+                    Отправить повторно
+                </a>
+            </div>
+        </div>
+    </div>
+</form>
+{% endblock content %}
