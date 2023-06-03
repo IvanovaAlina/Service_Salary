@@ -28,4 +28,21 @@
 
 ![image](https://github.com/IvanovaAlina/Service_Salary/assets/22053336/a7fe8c73-7513-4c16-9cfa-af96957afba0)
 
+# Описение работы с приложением
+
+В начале необходимо зарегистрироваться или войти в приложение.
+
+![image](https://github.com/IvanovaAlina/Service_Salary/assets/22053336/1f121933-d31e-49df-9858-71a04a4346f7)
+
+После входа обязательно нужно будет пройти верификацию почты. Для этого на странице верификации нужно будет ввести почту (см. картинку ниже).
+
+![image](https://github.com/IvanovaAlina/Service_Salary/assets/22053336/504660d7-d54d-43cb-b9d4-48f1b71b98bf)
+
+После этого вам на указанную почту должен придти уникальный код. Вставьте его в поле ниже. Если письмо не пришло, нажмите кнопку "Отправить повторно".
+
+![image](https://github.com/IvanovaAlina/Service_Salary/assets/22053336/19952197-b7b1-4b26-9c2a-1a880f3c27a2)
+
+Если вы введете верный код в течение 5 минут после его отправки, то у вас появится доступ к приложению.
+
+![image](https://github.com/IvanovaAlina/Service_Salary/assets/22053336/745bc6c1-1c12-412e-96f5-be6a2801c878)
 
