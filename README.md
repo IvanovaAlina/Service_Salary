@@ -24,6 +24,8 @@
 
 ![image](https://github.com/IvanovaAlina/Service_Salary/assets/22053336/1b9bf236-7180-4b5f-bfe2-663d6652e0a9)
 
-5. Запустите локальный web-сервер (на Windows команда python manage.py runserver)
+5. Запустите локальный web-сервер (на Windows команда python manage.py runserver). Ниже там будет строка с вашим локаланым адресом. ВНИМАНИЕ! не останавливайте сервер, пока работаете с сайтом.
+
+![image](https://github.com/IvanovaAlina/Service_Salary/assets/22053336/a7fe8c73-7513-4c16-9cfa-af96957afba0)
 
 
